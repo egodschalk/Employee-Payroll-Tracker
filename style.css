@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #dbe6ff;
 }
 
 .wrapper {
@@ -28,10 +28,12 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+  /* color: #1f54d4; */
 }
 
 h2 {
   text-align: center;
+
 }
 
 .card {
@@ -106,6 +108,10 @@ tbody tr:nth-child(even) {
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: hsl(223, 79%, 41%);
+}
+
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
@@ -127,5 +133,9 @@ button[disabled] {
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
+  }
+
+  .card {
+    font-size: 3.5vw;
   }
 }
